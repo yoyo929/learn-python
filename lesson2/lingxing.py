@@ -12,7 +12,6 @@ a_b2_ = 13
 # number -> num
 # index -> i
 # count
-# length
 
 # table_length = 13
 # table_leg_length = 4
@@ -20,10 +19,12 @@ a_b2_ = 13
 
 num = int(input("请输入最多*所在行数:"))
 a = num
-b = num #上三角
+b = num
 for i in range(1,num+1):
     print((a-1) *' ', (2*i-1)*'*')
     a -=1 #下三角
 for j in range(1, num):
     print(j*' ', (2*b-3)*'*')
     b -=1
+
+# this is a message
