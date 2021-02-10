@@ -44,8 +44,7 @@
 # print(b)
 
 # a = [432, 5, 54, 77, 32, 3, 4]
-
-# b = sorted(a)
+# b = sorted(a, reverse = True)
 
 # print(a)
 # print(b)
@@ -61,25 +60,31 @@
 
 # 3.3.4
 # a = [432, 5, 54, 77, 32, 3, 4]
+# print(len(a))
 # l = len(a) # length 长度
 # print(l)
+
+# y = f(x)
+# z = g(y)
+# z = g(f(x))
 
 # 交互模式，命令行直接执行 python
 
 # 3.4 避免索引错误
 
 # blablah 100 这些会正常执行
-a = [432, 5, 54, 77, 32, 3, 4] # 长度为 7 , index ∈ [-7, 7)
-# 长度为n，索引的范围就是左闭右开的-n到n
+# a = [432, 5, 54, 77, 32, 3, 4] # 长度为 7 , index ∈ [-7, 7)
+# # 长度为n，索引的范围就是左闭右开的-n到n
+# a[index]
 
-index = -9
-length = len(a)
+# index = -9
+# length = len(a)
 
-if index < -7 or index >= 7: # 为了避免异常，可以自己做检查
-  print(f'你这个索引好像不太对, 因该是-7到7， 而你的索引是 {index}')
-  exit()
+# if index < -7 or index >= 7: # 为了避免异常，可以自己做检查
+#   print(f'你这个索引好像不太对, 因该是-7到7， 而你的索引是 {index}')
+#   exit()
 
-b = a[index] # 程序会在异常处退出
+# b = a[index] # 程序会在异常处退出
 # blablah 100 再也不会执行了
 
 # 异常
@@ -88,3 +93,34 @@ b = a[index] # 程序会在异常处退出
 
 # 可复用性
 # 写死
+
+# a = [4, 9, 5, 2]
+
+# # [-4, 4)
+
+# # 0, 1, 2
+# for i in range(0, 3):
+#   a.pop(i)
+
+
+
+visited_place=['Paris','Japan','Swiss','Hong Kong']
+print(visited_place)
+sorted_visited_palce=sorted(visited_place)
+print(sorted_visited_palce)
+b=sorted(visited_place,reverse=True)
+print(b)
+visited_place.reverse()
+print(visited_place)
+visited_place.reverse()
+print(visited_place)
+
+visited_place.sort()
+print(visited_place)
+
+visited_place.sort(reverse=True)
+print(visited_place)
+
+L=len(visited_place)
+print(L)
+
