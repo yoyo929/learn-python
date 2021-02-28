@@ -12,8 +12,7 @@
 # majicians = ['alice', 'david', 'carolina']
 # for majician in majicians:
 #     print(f'{majician.title()}, that was a greate trick!')
-#     print()
-#     print(f"I can't wait to see your next trick, {majician.title()}")
+#     print(f"I can't wait to see your next trick, {majician.title()}\n")
 
 # 4.2.1
 # for majician in majicians:
@@ -63,15 +62,17 @@
 # for i in range(1, 6):
 #     squares.append(i ** 2)
 
-# [1, 2, 3, 4, 5] -> [1, 4, 9, 16, 25]
-# squares = [i ** 2 for i in range(1, 6)] # [1, 2, 3, 4, 5]
-
 # print(squares)
 
-a = ['a', 'b', 'c']
-#b = ['aa', 'bb', 'cc']
-b = [i*2 for i in a]
-print(b)
+# [1, 2, 3, 4, 5] -> [1, 4, 9, 16, 25]
+squares = [i ** 2 for i in range(1, 6)] # [1, 2, 3, 4, 5]
+
+print(squares)
+
+# a = ['a', 'b', 'c']
+# #b = ['aa', 'bb', 'cc']
+# b = [i*2 for i in a]
+# print(b)
 
 
-print('\n'.join([''.join([('GTYYX/'[(x-y)%len('GTYYX/')]if((x*0.05)**2+(y*0.1)**2-1)**3-(x*0.05)**2*(y*0.1)**3<=0 else' ')for x in range(-30,30)])for y in range(15,-15,-1)]))
+# print('\n'.join([''.join([('GTYYX/'[(x-y)%len('GTYYX/')]if((x*0.05)**2+(y*0.1)**2-1)**3-(x*0.05)**2*(y*0.1)**3<=0 else' ')for x in range(-30,30)])for y in range(15,-15,-1)]))
