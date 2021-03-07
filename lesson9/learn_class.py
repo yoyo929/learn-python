@@ -89,7 +89,10 @@ class Restaurant:
     def open_restaurant(self): 
         print(f"{self.restaurant_name}正在营业。")
 
-    
+a = ''
+a += 'haha'
+a += 'hehe'
+# a == 'hahahehe'
 
 zhijiang = Restaurant("zhijiang", "japanese food")
 print(zhijiang.number_served)

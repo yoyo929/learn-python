@@ -1,0 +1,2 @@
+hahahahahafdsafdsafdsa
+ows the structure and flow of control between an async event handler, StartButton_Click, and an async method, ExampleMethodAsync. The result from the async method is the number of characters of a web page. The code is suitable for a Windows Presentation Foundation (WPF) app or Windows Store app that you create in Visual Studio; see the code comments for setting up the app.
