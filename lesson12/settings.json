@@ -1,0 +1,11 @@
+{
+    "screen": {
+        "width": 600,
+        "height": 400
+    },
+    "background": {
+        "R": 255,
+        "G": 255,
+        "B": 0
+    }
+}
